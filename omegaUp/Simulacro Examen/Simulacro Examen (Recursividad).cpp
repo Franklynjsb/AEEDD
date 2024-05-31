@@ -8,19 +8,21 @@ int main(int argc, char *argv[]) {
 	cin >> A >> N;
 	//A -> Años desde que se empieza a calcular años bisiestos
 	//N -> cantidad de años bisiestos a informar
-	if (N!=0){
-		LeapYearFunctionRecursive(A,N);
-	}else {
-		cout << "||description" << endl;
-		cout << "Dado que no se pide ningún año no se muestra nada" << endl;
-	}
+	
+	LeapYearFunctionRecursive(A,N);
+	
 	return 0;
 }
 
 void LeapYearFunctionRecursive (int A, int N){
 	if (N == 0){
 		return;
-	}else if ((A % 400 == 0 || A % 4 == 0) && (N !=0)){
+	}else if (A%100==0){
+		if (A%4==0 && A%400==0){
+			cout << A << endl;
+			N--;
+		}
+	}else if (A%4==0) {
 		cout << A << endl;
 		N--;
 	}
