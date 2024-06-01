@@ -14,6 +14,9 @@ int main(int argc, char *argv[]) {
 				cout << A << endl;
 				i++;
 			}
+		}else if (A%4==0){
+			cout << A << endl;
+			i++;
 		}
 		
 		A++;
