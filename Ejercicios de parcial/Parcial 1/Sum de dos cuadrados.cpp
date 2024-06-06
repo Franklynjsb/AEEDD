@@ -20,15 +20,15 @@ int main(int argc, char *argv[]) {
 }
 
 bool Function(int N){
-	bool ehverda=false;
+	bool Aux=false;
 	
 	for (int A=1; A < sqrt(N); A++){
 		for (int B=1; B <sqrt(N); B++){
 			if (N==(B*B+A*A)){
-				ehverda = true;
+				Aux = true;
 			}
 		}
 	}
-	return ehverda;
+	return Aux;
 	
 }
