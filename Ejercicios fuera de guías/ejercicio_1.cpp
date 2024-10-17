@@ -3,15 +3,13 @@
 using namespace std;
 
 int CantidadRepetidos (int arreglo[], int tamanioLogico);
+void Swap (int& numero1, int& numero2);
 
 int main(int argc, char *argv[]) {
 	
 	int arreglo[1500], tamanioLogico=1500;
 	
 	//Inicializo el arreglo con numeros randoms hasta 150
-	for(int i=0; i<tamanioLogico; i++) {
-		arreglo[i] = rand()%150+1;
-	}
 	for(int i=0; i<tamanioLogico; i++) {
 		arreglo[i] = rand()%150+1;
 	}
@@ -51,10 +49,18 @@ void OrdenarVector (int arreglo[], int& tamanioLogico) {
 	
 	for(int i=0;i<tamanioLogico;i++) { 
 		if (arreglo[i]>arreglo[i+1]) {
-			/*Swap(arreglo, i);*/
 			Swap(arreglo[i], arreglo[i+1]);
 		}
 		
 		
 	}
+}
+
+void Swap (int& numero1, int& numero2) {
+	
+	int aux=0;
+	
+	aux=numero1;
+	numero1=numero2;
+	numero2=aux;
 }
