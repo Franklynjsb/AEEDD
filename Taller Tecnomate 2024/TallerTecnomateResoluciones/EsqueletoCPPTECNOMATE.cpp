@@ -20,7 +20,6 @@
 
 using namespace std;
 
-bool TodosUNo (long long medias[], int cantidadTipos);
 
 int main(int argc, char *argv[]) {
 	
