@@ -65,18 +65,56 @@ int funcionC (Provincia * Oficial, int dias) {
 	
 }
 
-nodoD* funcionD (Provincia * provincia, nodoD * actual) {
-	ciudad Ciudad = provincia->Ciudad;
-	nodoD * sig = new nodoD;
-	actual->siguiente = sig;
-	
-	if (provincia==NULL){
-		actual->siguiente = NULL;
-		return actual;
-	}else {
-		(actual->clase).amplitudTermica = (Ciudad.temperatura.max) -(Ciudad.temperatura.min);
-		(actual->clase).dia = (Ciudad.fecha.dia);
-		return funcionD (provincia->siguienteP, sig);
+void InsertarNodo(nodoD * &lista, int termica, int dia) {
+	nodoD * nuevo = new nodoD;
+	if(nuevo==NULL){
+		return;//No se pudió
 	}
 	
+	(lista->clase).amplitudTermica = termica;
+	(lista->clase).dia = termica;
+	
+	nodoD * aux = lista;
+	
+	while (aux->siguiente!=NULL){
+		aux=aux->siguiente;
+	}
+	
+	aux->siguiente = nuevo;
+	return;//Si se pudo burro
+	
 }
+
+nodoD* funcionD (ciudad * Ciudad) {
+	nodoD * lista = new nodoD;
+	nodoD * actual = new nodoD;
+	lista->siguiente = NULL;
+	int dias=31;
+	
+	
+	while (dias--){
+		
+		int amplitudTermica = Ciudad->temperatura.max - Ciudad->temperatura.min;
+		int dia = (Ciudad->fecha.dia);
+		
+		InsertarNodo(lista, amplitudTermica, dia);
+		if (dias==1){
+			
+			nodoD * aux = lista;
+			
+			while (aux->siguiente!=NULL){
+				aux=aux->siguiente;
+			}
+			
+			aux->siguiente = NULL;
+			return lista;
+		}
+		actual = actual->siguiente;
+		
+		
+	}
+	return lista;
+	
+}
+
+
