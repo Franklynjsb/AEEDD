@@ -36,34 +36,44 @@ int main(int argc, char *argv[]) {
 	
 	Provincia * Oficial = new Provincia;
 	
-	
 	return 0;
+}
+
+bool Contador(Provincia * Oficial, int dia) {
+	int cont=0;
+	while (Oficial!=NULL){
+		int Temp = Oficial->Ciudad.temperatura.max;
+		
+		if (Temp>35){
+			cont++;
+		}
+		
+	}
+	
+	if (cont >= 200) {
+		return true;
+	}else {
+		return false;
+	}
+	
 }
 
 int funcionC (Provincia * Oficial, int dias) {
 	
-	int contador=0;
-	Provincia * aux = Oficial;
-	
-	if(dias==0) {
+	if(dias==31) {
 		return 0;
 	}else {
-		while (aux!=NULL){
-			int temp = (aux->Ciudad).temperatura.max;
-			
-			if(temp>=35){
-				contador++;
-			}
-			aux=aux->siguienteP;
+		if(Contador(Oficial, dias)){
+			return 1 + funcionC(Oficial, dias+1);
 		}
-		if(contador>=200){
-			return 1 + funcionC(Oficial, dias-1);
-		}else {
-			return 0 + funcionC(Oficial, dias-1);
-		}
+		return 0 + funcionC(Oficial, dias+1);
+		
 	}
 	
 }
+
+
+
 
 void InsertarNodo(nodoD * &lista, int termica, int dia) {
 	nodoD * nuevo = new nodoD;
@@ -71,16 +81,24 @@ void InsertarNodo(nodoD * &lista, int termica, int dia) {
 		return;//No se pudió
 	}
 	
-	(lista->clase).amplitudTermica = termica;
-	(lista->clase).dia = termica;
-	
 	nodoD * aux = lista;
+	nodoD * ant = new nodoD;
+	nodoD * sig = new nodoD;
 	
 	while (aux->siguiente!=NULL){
+		
+		if(aux->clase.amplitudTermica > termica) {
+			ant = aux;
+			break;
+		}
+		
 		aux=aux->siguiente;
 	}
 	
-	aux->siguiente = nuevo;
+	sig = aux->siguiente;
+	ant->siguiente = sig;
+	
+	
 	return;//Si se pudo burro
 	
 }
@@ -116,5 +134,7 @@ nodoD* funcionD (ciudad * Ciudad) {
 	return lista;
 	
 }
+
+
 
 
