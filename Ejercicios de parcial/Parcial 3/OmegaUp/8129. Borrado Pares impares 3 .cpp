@@ -3,39 +3,37 @@ using namespace std;
 
 struct nodo {
 	int numero;
-	nodo * sig;
+	struct nodo * sig;
 };
 
-void EliminarNodo(nodo * &Lista, int num);
-void InsertarNodo(nodo * &Lista, int num);
-void MostarLista (nodo * Lista);
+typedef nodo * nodoPtr;
+
+void EliminarNodo(nodoPtr &Lista, int num);
+void InsertarNodo(nodoPtr &Lista, int num);
+void MostarLista (nodoPtr Lista);
 void SwaP (int &num1, int &num2);
-void IntercambioNum(nodo * &Lista);
-void Final (nodo * &Lista);
+void IntercambioNum(nodoPtr &Lista);
+void Final (nodoPtr &Lista);
 
 int main(int argc, char *argv[]) {
 	
-	nodo * Lista = new nodo;
+	nodoPtr Lista = NULL;
+	int valor;
 	
-	if (Lista== NULL) {
-		cout << "No hay memoria" << endl;
-	}else {
-		int valor;
-		
-		while (cin>>valor){
-			InsertarNodo(Lista, valor);
-		}
-		
-		Final(Lista);
-		MostarLista(Lista);
+	while (cin>>valor){
+		InsertarNodo(Lista, valor);
 	}
+	
+	Final(Lista);
+	MostarLista(Lista);
+	
 	
 	return 0;
 }
 
-void InsertarNodo(nodo * &Lista, int num){
+void InsertarNodo(nodoPtr &Lista, int num){
 	//ANDA BIEN
-	nodo * nuevo = new nodo;
+	nodoPtr nuevo = new nodo;
 	
 	if(nuevo!=NULL){
 		
@@ -46,10 +44,10 @@ void InsertarNodo(nodo * &Lista, int num){
 	cout << "Se inserto " << num << endl;
 }
 	
-void EliminarNodo(nodo * &Lista, int num) {
+void EliminarNodo(nodoPtr &Lista, int num) {
 	//ANDA BIEN
-	nodo * aux = Lista;
-	nodo * ant = NULL;
+	nodoPtr aux = Lista;
+	nodoPtr ant = NULL;
 	
 	while (aux!=NULL && aux->numero!=num) {
 		ant=aux;
@@ -69,9 +67,9 @@ void EliminarNodo(nodo * &Lista, int num) {
 	
 }
 
-void MostarLista (nodo * Lista) {
+void MostarLista (nodoPtr Lista) {
 	//ANDA BIEN
-	nodo * aux = Lista;
+	nodoPtr aux = Lista;
 	
 	while (aux!=NULL){
 		cout << aux->numero << " -> ";
@@ -87,11 +85,11 @@ void SwaP (int &num1, int &num2) {
 	num2=aux;
 }
 
-void IntercambioNum(nodo * &Lista) {
+void IntercambioNum(nodoPtr &Lista) {
 	
-	nodo * act = Lista;
-	nodo * num1;
-	nodo * num2;
+	nodoPtr act = Lista;
+	nodoPtr num1;
+	nodoPtr num2;
 	
 	int dif, MAX = 0, mini = 999;
 	
@@ -114,12 +112,12 @@ void IntercambioNum(nodo * &Lista) {
 	
 }
 
-void Final (nodo * &Lista) {
+void Final (nodoPtr &Lista) {
 	
-	nodo * aux = Lista;
+	nodoPtr aux = Lista;
 	
 	while (aux!=NULL) {
-		nodo * siguiente = aux->sig;
+		nodoPtr siguiente = aux->sig;
 		
 		if (siguiente!=NULL){
 			if (aux->numero%2==0 && (siguiente->numero%2!=0 && siguiente->numero%3==0)){
