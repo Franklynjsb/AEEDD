@@ -6,6 +6,7 @@ struct Nodo {
 	struct Nodo *sig;
 };
 typedef Nodo * NodoPtr;
+// 1 2 4 5 7 8 9 6 2 7 8 9
 
 void insertar( NodoPtr & sPtr, int valor );
 void mostrarLista( NodoPtr actual );
