@@ -5,8 +5,8 @@
 <h3 align="left">Archivos utilizados para la cátedra. Contiene teoría, práctica para parciales y práctica de ciertos temas "más importantes".</h3>
 
 ###
-
-<h4 align="left">Ejercicios de [Beecrowd](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/1.%20BeeCrowd/).</h4>
+This site was built using [GitHub Pages](https://pages.github.com/).
+<h4 align="left">Ejercicios de Beecrowd</h4>
 
 ###
 
