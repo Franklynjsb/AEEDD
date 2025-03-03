@@ -6,7 +6,7 @@
 
 ###
 
-<h4 align="left">Ejercicios de [Beecrowd](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/1.%20BeeCrowd/)</h4>
+<h4 align="left">Ejercicios de [Beecrowd](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/1.%20BeeCrowd/).</h4>
 
 ###
 
