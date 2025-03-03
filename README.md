@@ -5,19 +5,18 @@
 <h3 align="left">Archivos utilizados para la cátedra. Contiene teoría, práctica para parciales y práctica de ciertos temas "más importantes".</h3>
 
 ###
-This site was built using [GitHub Pages](https://pages.github.com/).
-<h4 align="left">Ejercicios de Beecrowd</h4>
+Ejercicios de [Beecrowd](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/1.%20BeeCrowd).
 
 ###
 
-<h4 align="left">Ejercicios de [https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/2.%20OmegaUp](OmegaUP)</h4>
+Ejercicios de [OmegaUP](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/2.%20OmegaUp).
 
 ###
 
-<h4 align="left">Práctica para [https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos](TecnoMate)</h4>
+Práctica para [TecnoMate](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos).
 
 ###
 
-<h4 align="left">Ejercicios Varios de [https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos](Temas Concretos)</h4>
+Ejercicios Varios de [Temas Concretos](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos).
 
 ###
