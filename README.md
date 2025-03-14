@@ -13,7 +13,7 @@ Ejercicios de [OmegaUP](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejerc
 
 ###
 
-Práctica para [TecnoMate](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos).
+Práctica para [TecnoMate](https://github.com/Franklynjsb/AEEDD2024/tree/main/Taller%20Tecnomate%202024).
 
 ###
 
