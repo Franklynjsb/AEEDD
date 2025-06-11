@@ -1,2 +1,0 @@
-Parcial3-OmegaUP-2024 --> Crear un programa que rellene una lista de nodos.
-Parcial3-OmegaUP-2024-EXTRA --> Crear un programa que además de rellenar una lista de nodos, cree una extra para poder hacer una lista SOLO de nodos añadidos
