@@ -20,3 +20,8 @@ Práctica para [TecnoMate](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ta
 Ejercicios Varios de [Temas Concretos](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/3.%20Temas%20Concretos).
 
 ###
+
+###
+<p>Recuerden que si quieren utilizar este conjunto de apuntes para estudiar busquén los ejercicios de beecrowd/OmegaUp antes de ver como fue que los resolví.</p>
+<p>A su vez, de vez en cuando subiré resoluciones o más Evaluaciones para que practiquen.</p>
+###
