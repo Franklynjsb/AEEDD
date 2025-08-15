@@ -24,5 +24,5 @@ Ejercicios Varios de [Temas Concretos](https://github.com/Franklynjsb/AEEDD2024/
 ###
 <p>Recuerden que si quieren utilizar este conjunto de apuntes para estudiar busquén los ejercicios de beecrowd/OmegaUp antes de ver como fue que los resolví. Dentro de los códigos pueden ver varios #define, pero ignorenlos.</p>
 <p>A su vez, de vez en cuando subiré resoluciones o más Evaluaciones para que practiquen.</p>
-<p>Pueden encontrar más resumenes en mi [Drive](https://drive.google.com/drive/folders/11Ou2fwUFdO9J0x78K4-4PEKj7EzyHk8i?usp=drive_link)</p>
+Pueden encontrar más resumenes en mi Drive de resumenes: <https://drive.google.com/drive/folders/11Ou2fwUFdO9J0x78K4-4PEKj7EzyHk8i?usp=drive_link>
 
