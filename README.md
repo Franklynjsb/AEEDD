@@ -44,6 +44,10 @@ Ejercicios de beecrowd para práctica de Arreglos:
 - https://judge.beecrowd.com/en/problems/view/1175
 - https://judge.beecrowd.com/en/problems/view/1178
 - https://judge.beecrowd.com/en/problems/view/1171
+- (Complejidad +10) https://judge.beecrowd.com/en/problems/view/3182
+- (Complejidad+10) https://judge.beecrowd.com/en/problems/view/2310
+
+
 
 
 
