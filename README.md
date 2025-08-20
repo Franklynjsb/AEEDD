@@ -25,3 +25,14 @@ Ejercicios Varios de [Temas Concretos](https://github.com/Franklynjsb/AEEDD2024/
 <p>Recuerden que si quieren utilizar este conjunto de apuntes para estudiar busquén los ejercicios de beecrowd/OmegaUp antes de ver como fue que los resolví. Dentro de los códigos pueden ver varios #define, pero ignorenlos.</p>
 <p>A su vez, de vez en cuando subiré resoluciones o más Evaluaciones para que practiquen.</p>
 
+Ejercicios de beecrowd para práctica de repetitivas:
+https://judge.beecrowd.com/en/problems/view/1789
+https://judge.beecrowd.com/en/problems/view/1759
+https://judge.beecrowd.com/en/problems/view/1117
+https://judge.beecrowd.com/en/problems/view/1116
+https://judge.beecrowd.com/en/problems/view/1115
+https://judge.beecrowd.com/en/problems/view/1114
+https://judge.beecrowd.com/en/problems/view/1113
+https://judge.beecrowd.com/en/problems/view/1101
+https://judge.beecrowd.com/en/problems/view/1099
+
