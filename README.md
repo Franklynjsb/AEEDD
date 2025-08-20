@@ -26,13 +26,13 @@ Ejercicios Varios de [Temas Concretos](https://github.com/Franklynjsb/AEEDD2024/
 <p>A su vez, de vez en cuando subiré resoluciones o más Evaluaciones para que practiquen.</p>
 
 Ejercicios de beecrowd para práctica de repetitivas:
-https://judge.beecrowd.com/en/problems/view/1789
-https://judge.beecrowd.com/en/problems/view/1759
-https://judge.beecrowd.com/en/problems/view/1117
-https://judge.beecrowd.com/en/problems/view/1116
-https://judge.beecrowd.com/en/problems/view/1115
-https://judge.beecrowd.com/en/problems/view/1114
-https://judge.beecrowd.com/en/problems/view/1113
-https://judge.beecrowd.com/en/problems/view/1101
-https://judge.beecrowd.com/en/problems/view/1099
+- https://judge.beecrowd.com/en/problems/view/1789
+- https://judge.beecrowd.com/en/problems/view/1759
+- https://judge.beecrowd.com/en/problems/view/1117
+- https://judge.beecrowd.com/en/problems/view/1116
+- https://judge.beecrowd.com/en/problems/view/1115
+- https://judge.beecrowd.com/en/problems/view/1114
+- https://judge.beecrowd.com/en/problems/view/1113
+- https://judge.beecrowd.com/en/problems/view/1101
+- https://judge.beecrowd.com/en/problems/view/1099
 
