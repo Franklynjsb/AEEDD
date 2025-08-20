@@ -36,3 +36,14 @@ Ejercicios de beecrowd para práctica de repetitivas:
 - https://judge.beecrowd.com/en/problems/view/1101
 - https://judge.beecrowd.com/en/problems/view/1099
 
+
+
+Ejercicios de beecrowd para práctica de Arreglos:
+- https://judge.beecrowd.com/en/problems/view/1172
+- https://judge.beecrowd.com/en/problems/view/1176
+- https://judge.beecrowd.com/en/problems/view/1175
+- https://judge.beecrowd.com/en/problems/view/1178
+- https://judge.beecrowd.com/en/problems/view/1171
+
+
+
