@@ -36,6 +36,13 @@ Ejercicios de beecrowd para práctica de repetitivas:
 - https://judge.beecrowd.com/en/problems/view/1101
 - https://judge.beecrowd.com/en/problems/view/1099
 
+Ejercicios de beecrowd para práctica de funciones:
+ - https://judge.beecrowd.com/en/problems/view/1014
+ - https://judge.beecrowd.com/en/problems/view/1015
+ - https://judge.beecrowd.com/en/problems/view/1018
+ - https://judge.beecrowd.com/en/problems/view/1019
+ - https://judge.beecrowd.com/en/problems/view/1017
+ - https://judge.beecrowd.com/en/problems/view/1016
 
 
 Ejercicios de beecrowd para práctica de Arreglos:
@@ -46,8 +53,6 @@ Ejercicios de beecrowd para práctica de Arreglos:
 - https://judge.beecrowd.com/en/problems/view/1171
 - (Complejidad +10) https://judge.beecrowd.com/en/problems/view/3182
 - (Complejidad+10) https://judge.beecrowd.com/en/problems/view/2310
-
-
 
 
 
