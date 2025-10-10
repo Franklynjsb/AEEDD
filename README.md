@@ -54,5 +54,7 @@ Ejercicios de beecrowd para práctica de Arreglos:
 - (Complejidad +10) https://judge.beecrowd.com/en/problems/view/3182
 - (Complejidad+10) https://judge.beecrowd.com/en/problems/view/2310
 
-
+Ejercicios de beecrowd para práctica de Structs:
+- https://judge.beecrowd.com/en/problems/view/1258
+- https://judge.beecrowd.com/en/problems/view/1022
 
