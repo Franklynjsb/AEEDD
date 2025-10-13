@@ -54,6 +54,19 @@ Ejercicios de beecrowd para práctica de Arreglos:
 - (Complejidad +10) https://judge.beecrowd.com/en/problems/view/3182
 - (Complejidad+10) https://judge.beecrowd.com/en/problems/view/2310
 
+Ejercicios de beecrowd para práctica de Matrices:
+-https://judge.beecrowd.com/es/problems/view/1181
+-https://judge.beecrowd.com/es/problems/view/1182
+-https://judge.beecrowd.com/es/problems/view/1183
+-https://judge.beecrowd.com/es/problems/view/1184
+-https://judge.beecrowd.com/es/problems/view/1185
+-https://judge.beecrowd.com/es/problems/view/1186
+-https://judge.beecrowd.com/es/problems/view/1187
+-https://judge.beecrowd.com/es/problems/view/1188
+-https://judge.beecrowd.com/es/problems/view/1189
+-https://judge.beecrowd.com/es/problems/view/1435
+-https://judge.beecrowd.com/es/problems/view/1478
+
 Ejercicios de beecrowd para práctica de Structs:
 - https://judge.beecrowd.com/en/problems/view/1258
 - https://judge.beecrowd.com/en/problems/view/1022
