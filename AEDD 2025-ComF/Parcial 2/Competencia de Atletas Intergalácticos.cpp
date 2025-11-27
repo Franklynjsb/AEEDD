@@ -124,8 +124,8 @@ int main() {
 		
 		cout << fixed << setprecision(2);
 		cout << "1ero: Nombre, Apellido: " << lista[0].nombre << ", " << lista[0].apellido << ". Puntaje final: " << lista[0].puntaje << "\n";
-		cout << "2do: Nombre, Apellido: " << lista[1].nombre << ", " << lista[1].apellido << ". Puntaje final: " << lista[1].puntaje << "\n";
-		cout << "3ero: Nombre, Apellido: " << lista[2].nombre << ", " << lista[2].apellido << ". Puntaje final: " << lista[2].puntaje << "\n";
+		if(n>=2) cout << "2do: Nombre, Apellido: " << lista[1].nombre << ", " << lista[1].apellido << ". Puntaje final: " << lista[1].puntaje << "\n";
+		if(n>=3) cout << "3ero: Nombre, Apellido: " << lista[2].nombre << ", " << lista[2].apellido << ". Puntaje final: " << lista[2].puntaje << "\n";
 		
 		int pos = 0;
 		bool encontrado = false;
