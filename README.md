@@ -36,6 +36,17 @@ Ejercicios de beecrowd para práctica de repetitivas:
 - https://judge.beecrowd.com/en/problems/view/1101
 - https://judge.beecrowd.com/en/problems/view/1099
 
+<h3 align="left"> Parcial 1 (ejemplos) ;)</h3>
+
+###
+- https://omegaup.com/arena/problem/Indice-de-Masa-Corporal/
+- https://omegaup.com/arena/problem/Evaluacion-de-Canciones/#problems
+- https://omegaup.com/arena/problem/Patente-Argentina-2/
+- https://omegaup.com/arena/problem/Tarifas-de-Envio/
+- https://omegaup.com/arena/problem/Narcicistas-2/
+- https://omegaup.com/course/AEDD-F-2026/assignment/Tarea_3/#problems/Naranjas-y-bananas
+###
+
 Ejercicios de beecrowd para práctica de funciones:
  - https://judge.beecrowd.com/en/problems/view/1014
  - https://judge.beecrowd.com/en/problems/view/1015
