@@ -7,6 +7,9 @@
 ###
 Ejercicios de [Beecrowd](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/1.%20BeeCrowd).
 
+
+###
+Ejercicios de [Clases](https://github.com/Franklynjsb/AEEDD/tree/main/Ejercicios/4.Ejercicios%20realizados%20en%20clase).
 ###
 
 Ejercicios de [OmegaUP](https://github.com/Franklynjsb/AEEDD2024/tree/main/Ejercicios/2.%20OmegaUp).
